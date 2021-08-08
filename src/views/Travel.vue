@@ -149,7 +149,7 @@ export default {
   methods: { 
     rollDice(dice) {
       const roll = this.$options.tables.Roll(dice);      
-      this.$root.showUserMsg(`Rolled ${dice}`);
+      this.$root.showUserMsg(`Rolled ${dice} - 🎲 ${roll}`);
       return roll;   
     }, 
     resolveFleeInvasion() {      
